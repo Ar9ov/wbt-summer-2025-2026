@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Donor Information</h1>
+    <table>
+        <tr>
+            <td><label for="First Name *">First Name*</label></td>
+            <td><input type="text" id="First Name *" name="First Name *" required></td>
+        </tr>
+        <tr>
+            <td><label for="Last Name *">Last Name*</label></td>
+            <td><input type="text" id="Last Name *" name="Last Name *" required></td>
+        </tr>
+        <tr>
+            <td><label for="Company *">Company*</label></td>
+            <td><input type="text" id="Company *" name="Company *" required></td>
+        </tr>
+        <tr>
+            <td><label for="Address 1*"">Address 1*</label></td>
+            <td><input type=" text" id="Address 1*" name="Address 1*" required></td>
+        </tr>
+        <tr>
+            <td><label for="Address 2">Address 2*</label></td>
+            <td><input type="text" id="Address 2" name="Address 2" required></td>
+        </tr>
+        <tr>
+            <td><label for="City *">City*</label></td>
+            <td><input type="text" id="City *" name="City *" required></td>
+        </tr>
+        <tr>
+            <td><label for="State">State*</label></td>
+            <td>
+                <select id="State *" name="State *" required>
+                    <option value="">Select a state</option>
+                    <option value="CA">California</option>
+                    <option value="TX">Texas</option>
+                    <option value="NY">New York</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Zip Code *">Zip Code*</label></td>
+            <td><input type="text" id="Zip Code *" name="Zip Code *" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="Country">Country*</label></td>
+            <td>
+                <select id="Country" name="Country" required>
+                    <option value="">Select a country</option>
+                    <option value="USA">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Phone *">Phone*</label></td>
+            <td><input type="tel" id="Phone *" name="Phone *" required></td>
+        </tr>
+        <tr>
+            <td><label for="Fax">Fax</label></td>
+            <td><input type="tel" id="Fax" name="Fax"></td>
+        </tr>
+        <tr>
+            <td><label for="Email *">Email*</label></td>
+            <td><input type="email" id="Email *" name="Email *" required></td>
+        </tr>
+        <tr>
+            <td><label for="Donation Amount *">Donation Amount*</label></td>
+            <td>
+                <input type="radio" id="Donation Amount *" name="Donation Amount *" value="None" required>NONE
+                <input type="radio" id="Donation Amount *" name="Donation Amount *" value="$50" required>
+                <label for="$50">$50</label>
+                <input type="radio" id="Donation Amount *" name="Donation Amount *" value="$100" required>
+                <label for="$100">$100</label>
+                <input type="radio" id="Donation Amount *" name="Donation Amount *" value="$500" required>
+                <label for="$500">$500</label>
+                <input type="radio" id="Donation Amount *" name="Donation Amount *" value="$1000" required>
+                <label for="$1000">$1000</label>
+                <input type="radio" id="Donation Amount *" name="Donation Amount *" value="Other" required>
+                <label for="Other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>(Check a button or type in your amount)</p>
+            </td>
+            <td><label for="Other Amount">Other Amount:</label>
+                <input type="number" id="Other Amount" name="Other Amount" step="0.01">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Recurring Donation">Recurring Donation:</label>(Check if Yes)</td>
+            <td><input type="checkbox" id="Recurring Donation" name="Recurring Donation">I am interested in giving on a
+                regular basis.</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>
+                Monthly credit card <label for="Monthly Amount">Amount:</label><input type="number" id="Monthly Amount"
+                    name="Monthly Amount" step="0.01">
+                for<label for="Monthly Period">Months: </label><input type="text" id="Monthly Period"
+                    name="Monthly Period">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
