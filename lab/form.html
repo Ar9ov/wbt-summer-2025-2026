@@ -105,18 +105,128 @@
             <td>
                 Monthly credit card <label for="Monthly Amount">Amount:</label><input type="number" id="Monthly Amount"
                     name="Monthly Amount" step="0.01">
-                for<label for="Monthly Period">Months: </label><input type="text" id="Monthly Period"
-                    name="Monthly Period">
+                for<label for="Monthly Period"> </label><input type="text" id="Monthly Period"
+                    name="Monthly Period">Months.
             </td>
+        </tr>
+
+    </table>
+
+    <h1>Honorarium and Memorial Donation Information</h1>
+    <table>
+        <tr>
+            <td><label for="I would like to make this donation">I
+                    would like to make this donation</label></td>
+            <td>
+                <input type="radio" id="In Honor of" name="donation_type" value="In Honor of">
+                <label for="In Honor of">In Honor of</label>
+                <p></p>
+                <input type="radio" id="In Memory of" name="donation_type" value="In Memory of">
+                <label for="In Memory of">In Memory of</label>
+            </td>
+        <tr>
+            <td><label for="Name">Name: </label> </td>
+            <td><input type="text" id="Name2" name="Name"></td>
+        </tr>
+        <tr>
+            <td><label for="Acknowledge Donation to">Acknowledge Donation to: </label></td>
+            <td><input type="text" id="Acknowledge Donation to" name="Acknowledge Donation to"></td>
+        </tr>
+        <tr>
+            <td><label for="Address">Address: </label></td>
+            <td><input type="text" id="Address" name="Address"></td>
+        </tr>
+        <tr>
+            <td><label for="City">City: </label></td>
+            <td><input type="text" id="City" name="City"></td>
+        </tr>
+        <tr>
+            <td><label for="State">State: </label></td>
+            <td>
+                <select id="State" name="State">
+                    <option value="">Select a state</option>
+                    <option value="CA">California</option>
+                    <option value="TX">Texas</option>
+                    <option value="NY">New York</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <td><label for="Zip Code">Zip Code: </label></td>
+        <td><input type="number" id="Zip Code2" name="Zip Code"></td>
+        </tr>
+
+    </table>
+    <h1>Additinal Information</h1>
+    <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+
+    <table>
+        <tr>
+            <td><label for="Name">Name: </label> </td>
+            <td><input type="text" id="Name3" name="Name"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="Anonymous" name="Anonymous" value="Yes"></td>
+            <td><label for="Anonymous"></label>I would like my gift to remain anonymous.</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="matching-gift" name="matching-gift" value="Yes"></td>
+            <td><label for="matching-gift">My employer offers a matching gift program. I will mail the matching gift
+                    form.</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="no-thanks" name="no-thanks" value="Yes"></td>
+            <td><label for="no-thanks">Please save the cost of acknowledging this gift by not mailing me a thank you
+                    letter.</label></td>
+        </tr>
+        <tr>
+            <td><label for="Comments">Comments </label>
+                <p>(please type any questions or feedback here)</p>
+            </td>
+            <td><textarea id="Comments" name="Comments"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="contact">How may we contact you?</label></td>
+            <td><input type="checkbox" id="Email" name="contact" value="Yes">Email</td>
+        <tr>
+            <td></td>
+
+            <td><input type="checkbox" id="Postmail" name="contact" value="Yes">Postmail
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" id="Phone" name="contact" value="Yes">Phone</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" id="Fax" name="contact" value="Yes">Fax</td>
+        </tr>
+
+    </table>
+    <p>I would like to recieve newsletter and information about special events by:</p>
+    <table>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" id="Email2" name="contact2" value="Yes">Email</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" id="Postmail2" name="contact2" value="Yes">Postmail</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="volunteer" name="volunteer" value="Yes"></td>
+            <td><label for="volunteer">I would like information about volunteering for this cause.</label></td>
         </tr>
         <tr>
             <td></td>
             <td><input type="submit" value="Submit"></td>
         </tr>
     </table>
-
-
-
 </body>
+<footer>
+    <p>&copy; 2024 Your Organization. All rights reserved.</p>
+</footer>
 
 </html>
