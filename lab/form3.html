@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORM three</title>
+    <!--<link rel="stylesheet" href="form1.css">-->
+
+</head>
+
+
+<body>
+    <form action="/submit" method="post" class="card">
+
+        <div class="card-body">
+            <h2 class="h1">Registration</h2>
+            <h3 class="joinus">please complete all fields</h3>
+
+        </div>
+
+        <div class="for">
+            <label for="Full-name">Full name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="for">
+            <label for="code">Postal Code</label>
+            <input type="number" id="code" name="code" required>
+        </div>
+
+        <div class="for">
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="for">
+            <label for="Email">Email address</label>
+            <input type="text" id="email" name="Email" required>
+        </div>
+
+        <div class="for">
+            <label for="password">PAssword</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+            <label for="country">Country</label>
+            <select id="Country" name="Country" required>
+                <option value="">Select a country</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">United Kingdom</option>
+            </select>
+        </div>
+
+        <div class="button">
+            <button type="submit" class="b1">Submit</button>
+            <button type="reset" class="b2">Reset</button>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
